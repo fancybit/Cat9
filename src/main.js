@@ -3,6 +3,8 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import 'font-awesome/css/font-awesome.min.css'
+import i18n from './lang'
 
 Vue.config.productionTip = false
 
@@ -10,6 +12,7 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   router,
+  i18n,
   components: { App },
   template: '<App/>'
 })
