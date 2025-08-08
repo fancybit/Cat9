@@ -107,7 +107,7 @@
     </div>
   </div>
 </section>
-// ... existing code ...
+<div class="fb-logo"></div>
 <!-- 页脚 -->
 <footer class="footer">
   <div class="container">
@@ -296,6 +296,17 @@ export default {
   background-size: 60%;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.fb-logo{
+  background-image: url('../assets/logo1.gif');
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width:400px;
+  height:300px;
+  margin:10px;
+  text-align: center;
 }
 
 .logo {
